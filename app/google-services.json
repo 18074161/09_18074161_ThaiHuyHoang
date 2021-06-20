@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43280334527",
+    "project_id": "thickk-d3d98",
+    "storage_bucket": "thickk-d3d98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43280334527:android:14eea7757340acb89a500a",
+        "android_client_info": {
+          "package_name": "com.example.a09_18074161_thaihuyhoang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43280334527-7782pngsb0k51063iocaqe9eslb48u3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhx5iXaTSSUIg_TCmJEhYZoyj47sQCE9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43280334527-7782pngsb0k51063iocaqe9eslb48u3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

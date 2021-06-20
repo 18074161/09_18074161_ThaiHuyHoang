@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aa.SignIn">
+
+    <EditText
+        android:id="@+id/plEmail"
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/dncustom"
+        android:drawableLeft="@drawable/vector"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/plPass"
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/dncustom"
+        android:drawableLeft="@drawable/vector1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/plEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/plEmail"
+        app:layout_constraintTop_toBottomOf="@+id/plEmail" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="180dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/logincustom"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/plPass"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/plPass" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Coofee for your life"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="@+id/plPass"
+        app:layout_constraintTop_toBottomOf="@+id/plPass"
+        app:srcCompat="@drawable/caramel" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="forgot yout password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:srcCompat="@drawable/pngtree"
+        tools:layout_editor_absoluteY="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
